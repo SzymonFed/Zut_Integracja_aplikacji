@@ -1,0 +1,85 @@
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Spells">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Spell">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="_id"/>
+              <xs:element type="xs:integer" name="index"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element name="desc">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="higher_level">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="page"/>
+              <xs:element type="xs:string" name="range"/>
+              <xs:element name="components">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="string" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="material"/>
+              <xs:element type="xs:string" name="ritual"/>
+              <xs:element type="xs:string" name="duration"/>
+              <xs:element type="xs:string" name="concentration"/>
+              <xs:element type="xs:string" name="casting_time"/>
+              <xs:element type="xs:integer" name="level"/>
+              <xs:element name="school">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="url"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="classes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Class">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="url"/>
+                          <xs:element type="xs:string" name="name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="subclasses">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Subclass" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="url"/>
+                          <xs:element type="xs:string" name="name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="url"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

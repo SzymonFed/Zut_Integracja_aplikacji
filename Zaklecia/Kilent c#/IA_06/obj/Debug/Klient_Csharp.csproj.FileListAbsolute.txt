@@ -1,0 +1,10 @@
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\Klient_Csharp.csprojAssemblyReference.cache
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\IA_06.Form1.resources
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\IA_06.Form2.resources
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\IA_06.Properties.Resources.resources
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\Klient_Csharp.csproj.GenerateResource.cache
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\IA_06.exe
+D:\NetBeansProjects\IA_06\IA_06\obj\Debug\IA_06.pdb
+D:\NetBeansProjects\IA_06\IA_06\bin\Debug\IA_06.exe.config
+D:\NetBeansProjects\IA_06\IA_06\bin\Debug\IA_06.exe
+D:\NetBeansProjects\IA_06\IA_06\bin\Debug\IA_06.pdb

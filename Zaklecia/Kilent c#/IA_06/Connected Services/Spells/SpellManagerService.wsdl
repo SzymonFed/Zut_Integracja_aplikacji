@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://spell/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SpellManagerService" targetNamespace="http://spell/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:666/spells?xsd=1" namespace="http://spell/" />
+    </xsd:schema>
+  </types>
+  <message name="add">
+    <part name="parameters" element="tns:add" />
+  </message>
+  <message name="addResponse">
+    <part name="parameters" element="tns:addResponse" />
+  </message>
+  <message name="searchByName">
+    <part name="parameters" element="tns:searchByName" />
+  </message>
+  <message name="searchByNameResponse">
+    <part name="parameters" element="tns:searchByNameResponse" />
+  </message>
+  <message name="searchByClass">
+    <part name="parameters" element="tns:searchByClass" />
+  </message>
+  <message name="searchByClassResponse">
+    <part name="parameters" element="tns:searchByClassResponse" />
+  </message>
+  <message name="searchBySchool">
+    <part name="parameters" element="tns:searchBySchool" />
+  </message>
+  <message name="searchBySchoolResponse">
+    <part name="parameters" element="tns:searchBySchoolResponse" />
+  </message>
+  <message name="searchByLevel">
+    <part name="parameters" element="tns:searchByLevel" />
+  </message>
+  <message name="searchByLevelResponse">
+    <part name="parameters" element="tns:searchByLevelResponse" />
+  </message>
+  <message name="add2">
+    <part name="parameters" element="tns:add2" />
+  </message>
+  <message name="add2Response">
+    <part name="parameters" element="tns:add2Response" />
+  </message>
+  <portType name="SpellManager">
+    <operation name="add">
+      <input wsam:Action="http://spell/SpellManager/addRequest" message="tns:add" />
+      <output wsam:Action="http://spell/SpellManager/addResponse" message="tns:addResponse" />
+    </operation>
+    <operation name="searchByName">
+      <input wsam:Action="http://spell/SpellManager/searchByNameRequest" message="tns:searchByName" />
+      <output wsam:Action="http://spell/SpellManager/searchByNameResponse" message="tns:searchByNameResponse" />
+    </operation>
+    <operation name="searchByClass">
+      <input wsam:Action="http://spell/SpellManager/searchByClassRequest" message="tns:searchByClass" />
+      <output wsam:Action="http://spell/SpellManager/searchByClassResponse" message="tns:searchByClassResponse" />
+    </operation>
+    <operation name="searchBySchool">
+      <input wsam:Action="http://spell/SpellManager/searchBySchoolRequest" message="tns:searchBySchool" />
+      <output wsam:Action="http://spell/SpellManager/searchBySchoolResponse" message="tns:searchBySchoolResponse" />
+    </operation>
+    <operation name="searchByLevel">
+      <input wsam:Action="http://spell/SpellManager/searchByLevelRequest" message="tns:searchByLevel" />
+      <output wsam:Action="http://spell/SpellManager/searchByLevelResponse" message="tns:searchByLevelResponse" />
+    </operation>
+    <operation name="add2">
+      <input wsam:Action="http://spell/SpellManager/add2Request" message="tns:add2" />
+      <output wsam:Action="http://spell/SpellManager/add2Response" message="tns:add2Response" />
+    </operation>
+  </portType>
+  <binding name="SpellManagerPortBinding" type="tns:SpellManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="add">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByName">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByClass">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchBySchool">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchByLevel">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="add2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SpellManagerService">
+    <port name="SpellManagerPort" binding="tns:SpellManagerPortBinding">
+      <soap:address location="http://localhost:666/spells" />
+    </port>
+  </service>
+</definitions>

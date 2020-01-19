@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spells>
+	<Spell>
+		<_id>5bce91f95b7768e7920184d6</_id>
+		<index>1</index>
+		<name>Acid Arrow</name>
+		<desc>
+			<string>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</string>
+		</higher_level>
+		<page>phb 259</page>
+		<range>90 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>Powdered rhubarb leaf and an adderâ€™s stomach.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/1</url>
+	</Spell>
+
+	<Spell>
+		<_id>5bce91f95b7768e7920184d5</_id>
+		<index>2</index>
+		<name>Acid Splash</name>
+		<desc>
+			<string>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a dexterity saving throw or take 1d6 acid damage.</string>
+			<string>This spellâ€™s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</string>
+		</desc>
+		<page>phb 211</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>0</level>
+		<school>
+			<name>Conjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/2</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/2</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184da</_id>
+		<index>3</index>
+		<name>Aid</name>
+		<desc>
+			<string>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each targetâ€™s hit point maximum and current hit points increase by 5 for the duration.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 3rd level or higher, a targetâ€™s hit points increase by an additional 5 for each slot level above 2nd.</string>
+		</higher_level>
+		<page>phb 211</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A tiny strip of white cloth.</material>
+		<ritual>no</ritual>
+		<duration>8 hours</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/7</url>
+				<name>Paladin</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/3</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184d9</_id>
+		<index>4</index>
+		<name>Alarm</name>
+		<desc>
+			<string>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that wonâ€™t set off the alarm. You also choose whether the alarm is mental or audible.</string>
+			<string>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</string>
+			<string>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</string>
+		</desc>
+		<page>phb 211</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A tiny bell and a piece of fine silver wire.</material>
+		<ritual>yes</ritual>
+		<duration>8 hours</duration>
+		<concentration>no</concentration>
+		<casting_time>1 minute</casting_time>
+		<level>1</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/8</url>
+				<name>Ranger</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/4</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184d8</_id>
+		<index>5</index>
+		<name>Alter Self</name>
+		<desc>
+			<string>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</string>
+			<string>Aquatic Adaptation.</string>
+			<string> You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</string>
+			<string>Change Appearance.</string>
+			<string> You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also canâ€™t appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you canâ€™t use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</string>
+			<string>Natural Weapons.</string>
+			<string> You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</string>
+		</desc>
+		<page>phb 211</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 hour</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/5</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184d7</_id>
+		<index>6</index>
+		<name>Animal Friendship</name>
+		<desc>
+			<string>This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast’s Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a wisdom saving throw or be charmed by you for the spell’s duration. If you or one of your companions harms the target, the spells ends.</string>
+		</desc>
+		<page>phb 212</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A morsel of food.</material>
+		<ritual>no</ritual>
+		<duration>24 hours</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Enchantment</name>
+			<url />
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/8</url>
+				<name>Ranger</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/6</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184db</_id>
+		<index>7</index>
+		<name>Animal Messenger</name>
+		<desc>
+			<string>By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as â€œa man or woman dressed in the uniform of the town guardâ€� or â€œa red-haired dwarf wearing a pointed hat.â€� You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.</string>
+			<string>When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesnâ€™t reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.</string>
+		</desc>
+		<higher_level>
+			<string>If you cast this spell using a spell slot of 3nd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.</string>
+		</higher_level>
+		<page>phb 212</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A morsel of food.</material>
+		<ritual>yes</ritual>
+		<duration>24 hours</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/8</url>
+				<name>Ranger</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/7</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184dc</_id>
+		<index>8</index>
+		<name>Animal Shapes</name>
+		<desc>
+			<string>Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms.</string>
+			<string>The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A targetâ€™s game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesnâ€™t reduce the creatureâ€™s normal form to 0 hit points, it isnâ€™t knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it canâ€™t speak or cast spells.</string>
+			<string>The targetâ€™s gear melds into the new form. The target canâ€™t activate, wield, or otherwise benefit from any of its equipment.</string>
+		</desc>
+		<page>phb 212</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 24 hours</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>8</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/8</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184dd</_id>
+		<index>9</index>
+		<name>Animate Dead</name>
+		<desc>
+			<string>This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creatureâ€™s game statistics).</string>
+			<string>On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</string>
+			<string>The creature is under your control for 24 hours, after which it stops obeying any command youâ€™ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.</string>
+		</higher_level>
+		<page>phb 212</page>
+		<range>10 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A drop of blood, a piece of flesh, and a pinch of bone dust.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 minute</casting_time>
+		<level>3</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/9</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184df</_id>
+		<index>10</index>
+		<name>Animate Objects</name>
+		<desc>
+			<string>Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You canâ€™t animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.</string>
+			<string>As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</string>
+			<string>An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.</string>
+			<string>If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form.</string>
+		</desc>
+		<higher_level>
+			<string>If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.</string>
+		</higher_level>
+		<page>phb 213</page>
+		<range>120 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>5</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/10</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184de</_id>
+		<index>11</index>
+		<name>Antilife Shell</name>
+		<desc>
+			<string>A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.</string>
+			<string>The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.</string>
+			<string>If you move so that an affected creature is forced to pass through the barrier, the spell ends.</string>
+		</desc>
+		<page>phb 213</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 hour</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>5</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/11</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e0</_id>
+		<index>12</index>
+		<name>Antimagic Field</name>
+		<desc>
+			<string>A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells canâ€™t be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.</string>
+			<string>Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and canâ€™t protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesnâ€™t function, but the time it spends suppressed counts against its duration.</string>
+			<string>Targeted Effects. Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target.</string>
+			<string>Areas of Magic. The area of another spell or magical effect, such as fireball, canâ€™t extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough.</string>
+			<string>Spells. Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it.</string>
+			<string>Magic Items. The properties and powers of magic items are suppressed in the sphere. For example, a +1 longsword in the sphere functions as a nonmagical longsword.</string>
+			<string>A magic weaponâ€™s properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits.</string>
+			<string>Magical Travel. Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spell, temporarily closes while in the sphere.</string>
+			<string>Creatures and Objects. A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.</string>
+			<string>Dispel Magic. Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells donâ€™t nullify each other.</string>
+		</desc>
+		<page>phb 213</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A pinch of powdered iron or iron filings.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 hour</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>8</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/12</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e1</_id>
+		<index>13</index>
+		<name>Antipathy/Sympathy</name>
+		<desc>
+			<string>This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the auraâ€™s effect.</string>
+			<string>Antipathy.</string>
+			<string> The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it canâ€™t see the target. If the creature moves more than 60 feet from the target and canâ€™t see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.</string>
+			<string>Sympathy.</string>
+			<string> The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it canâ€™t willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a wisdom saving throw to end the effect, as described below.</string>
+			<string>Ending the Effect.</string>
+			<string> If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another wisdom saving throw every 24 hours while the spell persists.</string>
+			<string>A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.</string>
+		</desc>
+		<page>phb 214</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>Either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect.</material>
+		<ritual>no</ritual>
+		<duration>10 days</duration>
+		<concentration>no</concentration>
+		<casting_time>1 hour</casting_time>
+		<level>8</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/13</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ed</_id>
+		<index>14</index>
+		<name>Arcane Eye</name>
+		<desc>
+			<string>You create an invisible, magical eye within range that hovers in the air for the duration.</string>
+			<string>You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.</string>
+			<string>As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it canâ€™t enter another plane of existence. A solid barrier blocks the eyeâ€™s movement, but the eye can pass through an opening as small as 1 inch in diameter.</string>
+		</desc>
+		<page>phb 214</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A bit of bat fur.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 hour</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>4</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/14</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ec</_id>
+		<index>15</index>
+		<name>Arcane Hand</name>
+		<desc>
+			<string>You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spellâ€™s duration, and it moves at your command, mimicking the movements of your own hand.</string>
+			<string>The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesnâ€™t fill its space.</string>
+			<string>When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.</string>
+			<string>Clenched Fist.</string>
+			<string> The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.</string>
+			<string>Forceful Hand.</string>
+			<string> The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the handâ€™s Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.</string>
+			<string>Grasping Hand.</string>
+			<string> The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the handâ€™s Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.</string>
+			<string>Interposing Hand.</string>
+			<string> The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the handâ€™s space if its Strength score is less than or equal to the handâ€™s Strength score. If its Strength score is higher than the handâ€™s Strength score, the target can move toward you through the handâ€™s space, but that space is difficult terrain for the target.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.</string>
+		</higher_level>
+		<page>phb 218</page>
+		<range>120 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>An eggshell and a snakeskin glove.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>5</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/15</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e2</_id>
+		<index>16</index>
+		<name>Arcane Lock</name>
+		<desc>
+			<string>You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.</string>
+			<string>While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.</string>
+		</desc>
+		<page>phb 215</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>Gold dust worth at least 25gp, which the spell consumes.</material>
+		<ritual>no</ritual>
+		<duration>Until dispelled</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/16</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e3</_id>
+		<index>17</index>
+		<name>Arcane Sword</name>
+		<desc>
+			<string>You create a sword-shaped plane of force that hovers within range. It lasts for the duration.</string>
+			<string>When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.</string>
+		</desc>
+		<page>phb 262</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>7</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/17</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e4</_id>
+		<index>18</index>
+		<name>Arcanist's Magic Aura</name>
+		<desc>
+			<string>You place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isnâ€™t being carried or worn by another creature.</string>
+			<string>When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.</string>
+			<string>False Aura.</string>
+			<string> You change the way the target appears to spells and magical effects, such as detect magic, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the objectâ€™s magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.</string>
+			<string>Mask.</string>
+			<string> You change the way the target appears to spells and magical effects that detect creature types, such as a paladinâ€™s Divine Sense or the trigger of a symbol spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.</string>
+		</desc>
+		<page>phb 263</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A small square of silk.</material>
+		<ritual>no</ritual>
+		<duration>24 hours</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Illusion</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/6</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/18</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e6</_id>
+		<index>19</index>
+		<name>Astral Projection</name>
+		<desc>
+			<string>You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation; it doesnâ€™t need food or air and doesnâ€™t age.</string>
+			<string>Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cutâ€”something that can happen only when an effect specifically states that it doesâ€”your soul and body are separated, killing you instantly.</string>
+			<string>Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.</string>
+			<string>The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.</string>
+			<string>The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creatureâ€™s original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creatureâ€™s astral form back to its body, ending its state of suspended animation.</string>
+			<string>If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.</string>
+		</desc>
+		<page>phb 215</page>
+		<range>10 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>For each creature you affect with this spell, you must provide one jacinth worth at least 1,000gp and one ornately carved bar of silver worth at least 100gp, all of which the spell consumes.</material>
+		<ritual>no</ritual>
+		<duration>Special</duration>
+		<concentration>no</concentration>
+		<casting_time>1 hour</casting_time>
+		<level>9</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/19</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e5</_id>
+		<index>20</index>
+		<name>Augury</name>
+		<desc>
+			<string>By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:</string>
+			<string>- Weal, for good results</string>
+			<string>- Woe, for bad results</string>
+			<string>- Weal and woe, for both good and bad results</string>
+			<string>- Nothing, for results that arenâ€™t especially good or bad</string>
+			<string>The spell doesnâ€™t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.</string>
+			<string>If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</string>
+		</desc>
+		<page>phb 215</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>Specially marked sticks, bones, or similar tokens worth at least 25gp.</material>
+		<ritual>yes</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 minute</casting_time>
+		<level>2</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/20</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e7</_id>
+		<index>21</index>
+		<name>Awaken</name>
+		<desc>
+			<string>After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a humanâ€™s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.</string>
+			<string>The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.</string>
+		</desc>
+		<page>phb 216</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>An agate worth at least 1,000 gp, which the spell consumes.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>8 hours</casting_time>
+		<level>5</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/21</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e8</_id>
+		<index>22</index>
+		<name>Bane</name>
+		<desc>
+			<string>Up to three creatures of your choice that you can see within range must make charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</string>
+		</higher_level>
+		<page>phb 216</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A drop of blood.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/22</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184e9</_id>
+		<index>23</index>
+		<name>Banishment</name>
+		<desc>
+			<string>You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a charisma saving throw or be banished.</string>
+			<string>If the target is native to the plane of existence youâ€™re on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</string>
+			<string>If the target is native to a different plane of existence than the one youâ€™re on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesnâ€™t return.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.</string>
+		</higher_level>
+		<page>phb 217</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>An item distasteful to the target.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>4</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/7</url>
+				<name>Paladin</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/23</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ea</_id>
+		<index>24</index>
+		<name>Barkskin</name>
+		<desc>
+			<string>You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.</string>
+		</desc>
+		<page>phb 217</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A handful of oak bark.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 hour</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/8</url>
+				<name>Ranger</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/24</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184eb</_id>
+		<index>25</index>
+		<name>Beacon of Hope</name>
+		<desc>
+			<string>This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.</string>
+		</desc>
+		<page>phb 217</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>3</level>
+		<school>
+			<name>Abjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/1</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/3</url>
+				<name>Life</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/7</url>
+				<name>Devotion</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/25</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ee</_id>
+		<index>26</index>
+		<name>Bestow Curse</name>
+		<desc>
+			<string>You touch a creature, and that creature must succeed on a wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:</string>
+			<string>- Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.</string>
+			<string>- While cursed, the target has disadvantage on attack rolls against you.</string>
+			<string>- While cursed, the target must make a wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.</string>
+			<string>- While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.</string>
+			<string>A remove curse spell ends this effect. At the DMâ€™s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curseâ€™s effect.</string>
+		</desc>
+		<higher_level>
+			<string>If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesnâ€™t require concentration.</string>
+		</higher_level>
+		<page>phb 218</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>3</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/26</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ef</_id>
+		<index>27</index>
+		<name>Black Tentacles</name>
+		<desc>
+			<string>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.</string>
+			<string>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.</string>
+			<string>A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.</string>
+		</desc>
+		<page>phb 238</page>
+		<range>90 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A piece of tentacle from a giant octopus or a giant squid</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>4</level>
+		<school>
+			<name>Conjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/2</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/27</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f0</_id>
+		<index>28</index>
+		<name>Blade Barrier</name>
+		<desc>
+			<string>You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain.</string>
+			<string>When a creature enters the wallâ€™s area for the first time on a turn or starts its turn there, the creature must make a dexterity saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature takes half as much damage.</string>
+		</desc>
+		<page>phb 218</page>
+		<range>90 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 10 minutes</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>6</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/28</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f1</_id>
+		<index>29</index>
+		<name>Bless</name>
+		<desc>
+			<string>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</string>
+		</higher_level>
+		<page>phb 219</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A sprinkling of holy water.</material>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/7</url>
+				<name>Paladin</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/3</url>
+				<name>Life</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/29</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f2</_id>
+		<index>30</index>
+		<name>Blight</name>
+		<desc>
+			<string>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.</string>
+			<string>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</string>
+			<string>If you target a nonmagical plant that isnâ€™t a creature, such as a tree or shrub, it doesnâ€™t make a saving throw; it simply withers and dies.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.</string>
+		</higher_level>
+		<page>phb 219</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>4</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/30</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018504</_id>
+		<index>31</index>
+		<name>Blindness/Deafness</name>
+		<desc>
+			<string>You can blind or deafen a foe. Choose one creature that you can see within range to make a constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a constitution saving throw. On a success, the spell ends.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</string>
+		</higher_level>
+		<page>phb 219</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>1 minute</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/11</url>
+				<name>Fiend</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/31</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f4</_id>
+		<index>32</index>
+		<name>Blink</name>
+		<desc>
+			<string>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</string>
+			<string>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you canâ€™t see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that arenâ€™t there canâ€™t perceive you or interact with you, unless they have the ability to do so.</string>
+		</desc>
+		<page>phb 219</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>1 minute</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>3</level>
+		<school>
+			<name>Transmutation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/8</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/32</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f3</_id>
+		<index>33</index>
+		<name>Blur</name>
+		<desc>
+			<string>Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesnâ€™t rely on sight, as with blindsight, or can see through illusions, as with truesight.</string>
+		</desc>
+		<page>phb 219</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Illusion</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/6</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/33</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f5</_id>
+		<index>34</index>
+		<name>Branding Smite</name>
+		<desc>
+			<string>The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it’s invisible, and the target sheds dim light in a 5-foot radius and can’t become invisible until the spell ends.</string>
+		</desc>
+		<page>phb 219</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 bonus action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Evocation</name>
+			<url />
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/7</url>
+				<name>Paladin</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/34</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f6</_id>
+		<index>35</index>
+		<name>Burning Hands</name>
+		<desc>
+			<string>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</string>
+			<string>The fire ignites any flammable objects in the area that arenâ€™t being worn or carried.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</string>
+		</higher_level>
+		<page>phb 220</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/11</url>
+				<name>Fiend</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/35</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f7</_id>
+		<index>36</index>
+		<name>Call Lightning</name>
+		<desc>
+			<string>A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you canâ€™t see a point in the air where the storm cloud could appear (for example, if you are in a room that canâ€™t accommodate the cloud).</string>
+			<string>When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.</string>
+			<string>If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spellâ€™s damage increases by 1d10.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd.</string>
+		</higher_level>
+		<page>phb 220</page>
+		<range>120 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 10 minutes</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>3</level>
+		<school>
+			<name>Conjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/2</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/36</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f9</_id>
+		<index>37</index>
+		<name>Calm Emotions</name>
+		<desc>
+			<string>You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.</string>
+			<string>Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.</string>
+		</desc>
+		<page>phb 221</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>2</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/37</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184f8</_id>
+		<index>38</index>
+		<name>Chain Lightning</name>
+		<desc>
+			<string>You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</string>
+			<string>A target must make a dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th.</string>
+		</higher_level>
+		<page>phb 221</page>
+		<range>150 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>6</level>
+		<school>
+			<name>Evocation</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/5</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/38</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184fa</_id>
+		<index>39</index>
+		<name>Charm Person</name>
+		<desc>
+			<string>You attempt to charm a humanoid you can see within range. It must make a wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</string>
+		</higher_level>
+		<page>phb 221</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>1 hour</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/39</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184fb</_id>
+		<index>40</index>
+		<name>Chill Touch</name>
+		<desc>
+			<string>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it canâ€™t regain hit points until the start of your next turn. Until then, the hand clings to the target.</string>
+			<string>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</string>
+			<string>This spellâ€™s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</string>
+		</desc>
+		<page>phb 221</page>
+		<range>120 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>1 round</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>0</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/40</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184fc</_id>
+		<index>41</index>
+		<name>Circle of Death</name>
+		<desc>
+			<string>A sphere of negative energy ripples out in a 60-footradius sphere from a point within range. Each creature in that area must make a constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</string>
+		</higher_level>
+		<page>phb 221</page>
+		<range>150 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>The powder of a crushed black pearl worth at least 500 gp.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>6</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/41</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184fd</_id>
+		<index>42</index>
+		<name>Clairvoyance</name>
+		<desc>
+			<string>You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it canâ€™t be attacked or otherwise interacted with.</string>
+			<string>When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.</string>
+			<string>A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.</string>
+		</desc>
+		<page>phb 222</page>
+		<range>1 mile</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A focus worth at least 100gp, either a jeweled horn for hearing or a glass eye for seeing.</material>
+		<ritual>no</ritual>
+		<duration>Up to 10 minutes</duration>
+		<concentration>yes</concentration>
+		<casting_time>10 minutes</casting_time>
+		<level>3</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/42</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184fe</_id>
+		<index>43</index>
+		<name>Clone</name>
+		<desc>
+			<string>This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.</string>
+			<string>At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the originalâ€™s equipment. The original creatureâ€™s physical remains, if they still exist, become inert and canâ€™t thereafter be restored to life, since the creatureâ€™s soul is elsewhere.</string>
+		</desc>
+		<page>phb 222</page>
+		<range>Touch</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water.</material>
+		<ritual>no</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 hour</casting_time>
+		<level>8</level>
+		<school>
+			<name>Necromancy</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/7</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/43</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e7920184ff</_id>
+		<index>44</index>
+		<name>Cloudkill</name>
+		<desc>
+			<string>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</string>
+			<string>When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</string>
+			<string>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</string>
+		</higher_level>
+		<page>phb 222</page>
+		<range>120 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 10 minutes</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>5</level>
+		<school>
+			<name>Conjuration</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/2</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/44</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018500</_id>
+		<index>45</index>
+		<name>Color Spray</name>
+		<desc>
+			<string>A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that canâ€™t see).</string>
+			<string>Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creatureâ€™s hit points from the total before moving on to the creature with the next lowest hit points. A creatureâ€™s hit points must be equal to or less than the remaining total for that creature to be affected.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.</string>
+		</higher_level>
+		<page>phb 222</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A pinch of powder or sand that is colored red, yellow, and blue.</material>
+		<ritual>no</ritual>
+		<duration>1 round</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Illusion</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/6</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/45</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018501</_id>
+		<index>46</index>
+		<name>Command</name>
+		<desc>
+			<string>You speak a one-word command to a creature you can see within range. The target must succeed on a wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesnâ€™t understand your language, or if your command is directly harmful to it.</string>
+			<string>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target canâ€™t follow your command, the spell ends.</string>
+			<string>Approach.</string>
+			<string> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</string>
+			<string>Drop</string>
+			<string> The target drops whatever it is holding and then ends its turn.</string>
+			<string>Flee.</string>
+			<string> The target spends its turn moving away from you by the fastest available means.</string>
+			<string>Grovel.</string>
+			<string> The target falls prone and then ends its turn.</string>
+			<string>Halt.</string>
+			<string> The target doesnâ€™t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</string>
+		</desc>
+		<higher_level>
+			<string>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</string>
+		</higher_level>
+		<page>phb 223</page>
+		<range>60 feet</range>
+		<components>
+			<string>V</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>1 round</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Enchantment</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/4</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/7</url>
+				<name>Paladin</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/11</url>
+				<name>Fiend</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/46</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018502</_id>
+		<index>47</index>
+		<name>Commune</name>
+		<desc>
+			<string>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</string>
+			<string>Divine beings arenâ€™t necessarily omniscient, so you might receive â€œunclearâ€� as an answer if a question pertains to information that lies beyond the deityâ€™s knowledge. In a case where a one-word answer could be misleading or contrary to the deityâ€™s interests, the DM might offer a short phrase as an answer instead.</string>
+			<string>If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.</string>
+		</desc>
+		<page>phb 223</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>Incense and a vial of holy or unholy water.</material>
+		<ritual>yes</ritual>
+		<duration>1 minute</duration>
+		<concentration>no</concentration>
+		<casting_time>1 minute</casting_time>
+		<level>5</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/3</url>
+				<name>Cleric</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/7</url>
+				<name>Devotion</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/47</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018503</_id>
+		<index>48</index>
+		<name>Commune with Nature</name>
+		<desc>
+			<string>You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesnâ€™t function where nature has been replaced by construction, such as in dungeons and towns.</string>
+			<string> You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:</string>
+			<string>- terrain and bodies of water</string>
+			<string>- prevalent plants, minerals, animals, or peoples</string>
+			<string>- powerful celestials, fey, fiends, elementals, or undead</string>
+			<string>- influence from other planes of existence</string>
+			<string>- buildings</string>
+			<string>For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.</string>
+		</desc>
+		<page>phb 224</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>yes</ritual>
+		<duration>Instantaneous</duration>
+		<concentration>no</concentration>
+		<casting_time>1 minute</casting_time>
+		<level>5</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/4</url>
+				<name>Druid</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/8</url>
+				<name>Ranger</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/4</url>
+				<name>Land</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/48</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018506</_id>
+		<index>49</index>
+		<name>Comprehend Languages</name>
+		<desc>
+			<string>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.</string>
+			<string>This spell doesnâ€™t decode secret messages in a text or a glyph, such as an arcane sigil, that isnâ€™t part of a written language.</string>
+		</desc>
+		<page>phb 224</page>
+		<range>Self</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+			<string>M</string>
+		</components>
+		<material>A pinch of soot and salt.</material>
+		<ritual>yes</ritual>
+		<duration>1 hour</duration>
+		<concentration>no</concentration>
+		<casting_time>1 action</casting_time>
+		<level>1</level>
+		<school>
+			<name>Divination</name>
+			<url>http://www.dnd5eapi.co/api/magic-schools/3</url>
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/10</url>
+				<name>Sorcerer</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/11</url>
+				<name>Warlock</name>
+			</CharacterClass>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/12</url>
+				<name>Wizard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses>
+			<Subclass>
+				<url>http://www.dnd5eapi.co/api/subclasses/2</url>
+				<name>Lore</name>
+			</Subclass>
+		</subclasses>
+		<url>http://www.dnd5eapi.co/api/spells/49</url>
+	</Spell>
+	<Spell>
+		<_id>5bce91f95b7768e792018505</_id>
+		<index>50</index>
+		<name>Compulsion</name>
+		<desc>
+			<string>Creatures of your choice that you can see within range and that can hear you must make a wisdom saving throw. A target automatically succeeds on this saving throw if it can’t be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.</string>
+			<string>A target isn’t compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.</string>
+		</desc>
+		<page>phb 224</page>
+		<range>30 feet</range>
+		<components>
+			<string>V</string>
+			<string>S</string>
+		</components>
+		<ritual>no</ritual>
+		<duration>Up to 1 minute</duration>
+		<concentration>yes</concentration>
+		<casting_time>1 action</casting_time>
+		<level>4</level>
+		<school>
+			<name>Enchantment</name>
+			<url />
+		</school>
+		<characterClasses>
+			<CharacterClass>
+				<url>http://www.dnd5eapi.co/api/characterClasses/2</url>
+				<name>Bard</name>
+			</CharacterClass>
+		</characterClasses>
+		<subclasses />
+		<url>http://www.dnd5eapi.co/api/spells/50</url>
+	</Spell>
+</Spells>

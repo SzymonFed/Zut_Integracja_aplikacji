@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://spell/" targetNamespace="http://spell/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="add" type="tns:add" />
+  <xs:element name="add2" type="tns:add2" />
+  <xs:element name="add2Response" type="tns:add2Response" />
+  <xs:element name="addResponse" type="tns:addResponse" />
+  <xs:element name="searchByClass" type="tns:searchByClass" />
+  <xs:element name="searchByClassResponse" type="tns:searchByClassResponse" />
+  <xs:element name="searchByLevel" type="tns:searchByLevel" />
+  <xs:element name="searchByLevelResponse" type="tns:searchByLevelResponse" />
+  <xs:element name="searchByName" type="tns:searchByName" />
+  <xs:element name="searchByNameResponse" type="tns:searchByNameResponse" />
+  <xs:element name="searchBySchool" type="tns:searchBySchool" />
+  <xs:element name="searchBySchoolResponse" type="tns:searchBySchoolResponse" />
+  <xs:complexType name="add2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:Spell" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Spell">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="casting_time" type="xs:string" />
+      <xs:element minOccurs="0" name="characterClasses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="CharacterClass" type="tns:CharacterClass" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="components">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="string" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="concentration" type="xs:string" />
+      <xs:element minOccurs="0" name="desc">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="string" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="duration" type="xs:string" />
+      <xs:element minOccurs="0" name="higher_level">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="string" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="id" type="xs:string" />
+      <xs:element name="index" type="xs:int" />
+      <xs:element name="level" type="xs:int" />
+      <xs:element minOccurs="0" name="material" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="page" type="xs:string" />
+      <xs:element minOccurs="0" name="range" type="xs:string" />
+      <xs:element minOccurs="0" name="ritual" type="xs:string" />
+      <xs:element minOccurs="0" name="school" type="tns:school" />
+      <xs:element minOccurs="0" name="subclasses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="Subclass" type="tns:Subclass" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="url" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CharacterClass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="url" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="school">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="url" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Subclass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="url" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="add2Response">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="searchByClass">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="className" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByClassResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spell" type="tns:Spell" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="add">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+      <xs:element name="arg1" type="xs:int" />
+      <xs:element minOccurs="0" name="arg2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="arg3" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="arg4" type="xs:string" />
+      <xs:element minOccurs="0" name="arg5" type="xs:string" />
+      <xs:element minOccurs="0" name="arg6" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="arg7" type="xs:string" />
+      <xs:element minOccurs="0" name="arg8" type="xs:string" />
+      <xs:element minOccurs="0" name="arg9" type="xs:string" />
+      <xs:element minOccurs="0" name="arg10" type="xs:string" />
+      <xs:element minOccurs="0" name="arg11" type="xs:string" />
+      <xs:element minOccurs="0" name="arg12" type="xs:string" />
+      <xs:element name="arg13" type="xs:int" />
+      <xs:element minOccurs="0" name="arg14" type="tns:school" />
+      <xs:element minOccurs="0" name="arg15" type="tns:CharacterClass" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="arg16" type="tns:Subclass" />
+      <xs:element minOccurs="0" name="arg17" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addResponse">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="searchByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spell" type="tns:Spell" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByLevel">
+    <xs:sequence>
+      <xs:element name="level" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByLevelResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spell" type="tns:Spell" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchBySchool">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="school" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchBySchoolResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spell" type="tns:Spell" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

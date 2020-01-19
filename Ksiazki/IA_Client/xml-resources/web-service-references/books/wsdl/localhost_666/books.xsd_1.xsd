@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://books/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://books/">
+
+<xs:element name="add" type="tns:add"></xs:element>
+
+<xs:element name="addResponse" type="tns:addResponse"></xs:element>
+
+<xs:element name="searchByAuthor" type="tns:searchByAuthor"></xs:element>
+
+<xs:element name="searchByAuthorResponse" type="tns:searchByAuthorResponse"></xs:element>
+
+<xs:element name="searchByISBN" type="tns:searchByISBN"></xs:element>
+
+<xs:element name="searchByISBNResponse" type="tns:searchByISBNResponse"></xs:element>
+
+<xs:element name="searchByTitle" type="tns:searchByTitle"></xs:element>
+
+<xs:element name="searchByTitleResponse" type="tns:searchByTitleResponse"></xs:element>
+
+<xs:complexType name="searchByTitle">
+<xs:sequence>
+<xs:element name="title" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchByTitleResponse">
+<xs:sequence>
+<xs:element name="book" type="tns:book" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="book">
+<xs:sequence>
+<xs:element name="author" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="isbn" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="pages" type="xs:int"></xs:element>
+<xs:element name="publisher" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="title" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="year" type="xs:int"></xs:element>
+</xs:sequence>
+<xs:attribute name="id" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="searchByISBN">
+<xs:sequence>
+<xs:element name="isbn" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchByISBNResponse">
+<xs:sequence>
+<xs:element name="book" type="tns:book" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchByAuthor">
+<xs:sequence>
+<xs:element name="author" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchByAuthorResponse">
+<xs:sequence>
+<xs:element name="book" type="tns:book" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="add">
+<xs:sequence>
+<xs:element name="book" type="tns:book" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addResponse">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+</xs:schema>
